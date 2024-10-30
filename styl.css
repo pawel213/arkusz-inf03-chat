@@ -1,0 +1,111 @@
+#main-container{
+	height: 95vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+*{
+	font-family: Garamond;
+	margin: 0px;
+}
+
+#chat-container{
+	margin: 15px;
+	border: 1px solid tomato;
+	height: 470px;
+	overflow: scroll;
+}
+
+img{
+	border-radius: 50px;
+}
+
+.message-jolka, .message-krzysiek{
+	border-radius: 5px;
+	width: 90%;
+	height: 70px;
+	margin: 2%;
+	padding: 3px;
+}
+
+.message-jolka{
+	background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-krzysiek{
+	background-color: #ccc;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+footer{
+	height: 5vh;
+	clear: both;
+	background-color: tomato;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+body{
+	margin: 0px;
+}
+
+#left{
+	float: left;
+	width: 80vw;
+	height: 600px;
+}
+
+#right{
+	float: right;
+	width: 20vw;
+	height: 680px;
+	background-color: coral;
+}
+
+#banner{
+	background-color: tomato;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#send-message{
+	display: flex;
+    align-items: center;
+}
+
+#input-message{
+	width: 500px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#generate-random{
+	margin-top: 5px;
+}
+
+button{
+	background-color: tomato;
+	border: 1px solid darkred;
+	padding: 5px;
+}
+
+#panel > *{
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
